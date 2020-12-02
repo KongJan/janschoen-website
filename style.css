@@ -1,39 +1,10 @@
-html,
 body {
-  height: 100%;
-  min-height: 100%;
-  width: 100%;
+  /* background image */
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  
+  /* color adjustments */
+  color: #fff;
+  background-blend-mode: overlay;
   background-color: #333;
 }
-
-body {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  color: #fff;
-  background-image: url("bg.jpg");
-  background-blend-mode: overlay;
-  background-size:cover;
-}
-
-.container {
-  max-width: 42em;
-  height: 100%;
-  padding-bottom: 70px;
-}
-
-.content {
-  height: 100%;
-  overflow-y: auto;
-}
-
-.inner {
-  padding: 0 1.5rem;
-}
-
-.footer {
-  width: 100%;
-} 
