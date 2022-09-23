@@ -1,2 +1,2 @@
-# janstopfer-website
-website janstopfer.de
+
+webpage of janschoen.de
