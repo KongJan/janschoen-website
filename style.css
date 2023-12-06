@@ -4,7 +4,15 @@ body {
   background-size: cover;
   
   /* color adjustments */
-  color: #fff;
+  color: White;
   background-blend-mode: overlay;
   background-color: #333;
+}
+
+a {
+  color: LightGray;
+}
+
+a:hover {
+  color: Silver;
 }
